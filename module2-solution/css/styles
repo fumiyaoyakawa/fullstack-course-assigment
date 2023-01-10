@@ -1,0 +1,35 @@
+@media (min-width: 992px){
+    .col-lg-4{
+        width: 28%;
+        margin-right: 5%;}}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+        width: 40%;
+        margin-right: 5%;
+        margin-bottom: 10%;}}
+
+@media (max-width: 767px){
+    .col-sm-12{
+        width: 99%;
+        margin-bottom: 10%;}}
+
+h1{ text-align: center;}
+.ch{background-color: rosybrown;}
+.be{background-color: royalblue;}
+.su{background-color: coral;}
+
+#box{
+    background-color: rgb(89, 97, 97);
+    border: 2px solid black;
+    float: left;
+}
+
+#top{
+    float: right;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 30%;
+    text-align: center;
+}
+p{clear: both;}
